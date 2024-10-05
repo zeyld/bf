@@ -1,0 +1,324 @@
+.container {
+    padding: 0px  60px;
+}
+
+.header {
+    background-image: url(bg.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Crect fill='black' width='10' height='10'/%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect fill='white' filter='url(%23noiseFilter)' width='10' height='10' opacity='.1'/%3E%3C/svg%3E");
+}
+
+.header-line {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.pravo {
+    gap: 30px;
+    display: flex;
+}
+
+.nav {
+    gap: 30px;
+    display: flex;
+}
+
+.niz {
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    right: 25px;
+}
+
+
+.katalog {
+    font-family: "gothampro";
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+}
+
+.onas {
+    font-family: "gothampro";
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+}
+
+.katalog:hover {
+    color: rgb(247, 67, 67);
+}
+
+.onas:hover {
+    color: rgb(247, 67, 67);
+}
+
+.card {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 28px;
+}
+
+.card-image {
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    width: 170px;
+}
+
+.card-image img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+}
+
+.card-desc {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    z-index: 3;
+    text-align: center;
+    margin-top: -50px;
+    text-transform: uppercase;
+    margin-left: -7px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.line {
+    height: 5px;
+    margin: 0;
+    border: none;
+    background-color: rgb(226, 64, 64);
+}
+
+
+.obvodka {
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+    margin-top: -220px;
+    margin-left: -10px;
+    pointer-events: none;
+}
+
+.card-image:hover img{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.skidka-img img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skidka {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.skidka-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.skidka-verx {
+    gap: 30px;
+    display:inline-block;
+}
+
+.tg img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.skidka-verx a.text-1:nth-child(3) {
+    position: relative;
+    top: 20px;
+}
+
+  .skidka-verx a.text-1:nth-child(2) {
+    position: relative;
+    top: -10px;
+}
+
+.skidka-sub a.text-1:nth-child(1) {
+    position: relative;
+    right: 35px;
+}
+
+.molnii img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+
+.cart img{
+    position: absolute;
+    margin-top: 20px;
+}
+
+
+.new {
+    background-image: url(img/moln.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-title {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.new-item {
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.new-price {
+    padding-top: 5px;
+}
+
+.new-price {
+    padding-top: 5px;
+}
+
+.new-items {
+    display: flex;
+    justify-content: center;
+}
+
+.opis-img img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opis-img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.opis {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.opis-text {
+    position: relative;
+}
+
+.opis-text2 {
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    margin-top: 35px;
+    transform: translateX(70px);
+    -webkit-transform: translateX(70px);
+    -moz-transform: translateX(70px);
+    -ms-transform: translateX(70px);
+    -o-transform: translateX(70px);
+}
+
+.opis-text3 {
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    margin-top: 35px;
+    right: 0;
+    top: 300px;
+    text-align: right;
+}
+
+.kras img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.niza {
+    position: relative;
+    background-color: crimson;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.text-niza {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.samniz {
+    margin-top: 30px;
+}

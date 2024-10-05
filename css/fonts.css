@@ -1,0 +1,106 @@
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+	font-style: normal;
+	font-weight: normal;
+	src: local('gothampro'),
+		url('font/gothampro.ttf') format('ttf'),
+}
+
+.text-1 {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+}
+
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+	font-style: light;
+	font-weight: normal;
+	src: local('gothampro_light'),
+		url('font/gothampro_light.ttf') format('ttf'),
+}
+
+.text-2 {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+	font-weight: normal;
+	font-style: light;    
+}
+
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+	font-style: medium;
+	font-weight: normal;
+	src: local('gothampro_medium'),
+		url('font/gothampro_medium.ttf') format('ttf'),
+}
+
+.text-3 {
+	color:white;
+	text-decoration: none;
+	font-family: 'gothampro';
+	font-weight: normal;
+	font-style: medium;    
+}
+
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'ChunkFive';
+	font-style: normal;
+	font-weight: normal;
+	src: local('ChunkFive'),
+		url('font/ChunkFive.ttf') format('ttf'),
+}
+
+.text-4 {
+	color:white;
+	text-decoration: none;
+	font-family: 'ChunkFive';
+	font-weight: normal;
+	font-style: normal;    
+}
+
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'Heyam';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Heyam'),
+		url('font/Heyam.ttf') format('ttf'),
+        url('font/Heyam.woff') format('woff'),
+}
+    
+.text-5 {
+	color:white;
+	text-decoration: none;
+	font-family: 'Heyam';
+	font-weight: normal;
+	font-style: normal;    
+}
+
+@font-face {
+	color:white;
+	text-decoration: none;
+	font-family: 'Pop';
+	font-style: normal;
+	font-weight: normal;
+	src: local('PopRumKiwi-Telop'),
+		url('font/PopRumKiwi-Telop.ttf') format('ttf'),
+}
+
+.text-6 {
+	color:white;
+	text-decoration: none;
+	font-family: 'Pop';
+	font-weight: normal;
+	font-style: normal;    
+}
