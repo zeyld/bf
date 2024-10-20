@@ -1,0 +1,13 @@
+footer {
+    margin-top: 40px;
+}
+
+.allfoot {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+p {
+    margin: 10px 0;
+}
