@@ -68,12 +68,11 @@
 	font-family: 'Pop';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Pop'),
-	url('../font/Pop.ttf') format('ttf'),
-	url('../font/Pop.woff') format('woff'),
-	url('../font/Pop.eot') format('eot'),
-	url('../font/Pop.otf') format('otf'),
-	url('../font/Pop.svg') format('svg'),
+	src: local('PopRumKiwi-Telop'),
+	url('../font/PopRumKiwi-Telop.ttf') format('ttf'),
+	url('../font/PopRumKiwi-Telop.woff') format('woff'),
+	url('../font/PopRumKiwi-Telop.otf') format('otf'),
+	url('../font/PopRumKiwi-Telop.svg') format('woff2'),
 }
 
 .text-6 {
