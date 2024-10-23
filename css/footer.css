@@ -1,13 +1,26 @@
-footer {
-    margin-top: 40px;
-}
-
 .allfoot {
     display: flex;
+    padding: 40px 20px;
     justify-content: space-between;
     gap: 30px;
 }
 
 p {
     margin: 10px 0;
+}
+
+
+.footerptext {
+    font-family: "gothampro";
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+}
+
+.footerptext:hover {
+    color: rgb(247, 67, 67);
 }

@@ -1,0 +1,25 @@
+.new {
+    position: relative;
+    background-image: url(../img/new/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-title {
+    padding: 30px;
+}
+
+.new-items {
+    display: flex;
+    justify-content: center;
+}
+
+.new-item {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.new-price {
+    padding-top: 10px;
+}

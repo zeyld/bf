@@ -1,8 +1,12 @@
 .desc {
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 300px;
     overflow: hidden;
+    background-image: url(../img/desc/bg.png);
 }
 
 .opis-text {
@@ -16,20 +20,4 @@
     -moz-transform: translateX(70px);
     -ms-transform: translateX(70px);
     -o-transform: translateX(70px);
-}
-
-.opis-img img{
-    width: 100%;
-    height: 300px;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.opis-img {
-    width: 100%;
-    height: 300px;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    background-position: center;
 }

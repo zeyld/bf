@@ -1,9 +1,11 @@
 .skidka {
     position: relative;
-    padding-top: 20px;
+    background-image: url(../img/skidka/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
-    margin-top: 20px;
+    height: 300px;
 }
 
 .skidka-text {
@@ -34,12 +36,4 @@
 .skidka-verx a.text-1:nth-child(3) {
     position: relative;
     top: -20px;
-}
-
-.skidka-img img{
-    width: 100%;
-    height: 300px;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    background-position: center;
 }

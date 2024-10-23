@@ -1,0 +1,25 @@
+.sellout {
+    position: relative;
+    background-image: url(../img/sellout/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sout-title {
+    padding: 30px;
+}
+
+.sout-items {
+    display: flex;
+    justify-content: center;
+}
+
+.sout-item {
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.sout-price {
+    padding-top: 10px;
+}
