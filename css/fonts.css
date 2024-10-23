@@ -5,9 +5,11 @@
 	font-style: normal;
 	font-weight: normal;
 	src: local('gothampro'),
-		url('font/gothampro.ttf') format('ttf'),
-		url('font/gothampro.woff') format('woff'),
-		url('font/gothampro.eot') format('eot'),
+		url('../font/gothampro.ttf') format('ttf'),
+		url('../font/gothampro.woff') format('woff'),
+		url('../font/gothampro.eot') format('eot'),
+		url('../font/gothampro.otf') format('otf'),
+		url('../font/gothampro.svg') format('svg'),
 }
 
 .text-1 {
@@ -19,53 +21,15 @@
 @font-face {
 	color:white;
 	text-decoration: none;
-	font-family: 'gothampro';
-	font-style: light;
-	font-weight: normal;
-	src: local('gothampro_light'),
-		url('font/gothampro_light.ttf') format('ttf'),
-		url('font/gothampro_light.woff') format('woff'),
-		url('font/gothampro_light.eot') format('eot'),
-}
-
-.text-2 {
-	color:white;
-	text-decoration: none;
-	font-family: 'gothampro';
-	font-weight: normal;
-	font-style: light;    
-}
-
-@font-face {
-	color:white;
-	text-decoration: none;
-	font-family: 'gothampro';
-	font-style: medium;
-	font-weight: normal;
-	src: local('gothampro_medium'),
-		url('font/gothampro_medium.ttf') format('ttf'),
-		url('font/gothampro_medium.woff') format('woff'),
-		url('font/gothampro_medium.eot') format('eot'),
-}
-
-.text-3 {
-	color:white;
-	text-decoration: none;
-	font-family: 'gothampro';
-	font-weight: normal;
-	font-style: medium;    
-}
-
-@font-face {
-	color:white;
-	text-decoration: none;
 	font-family: 'ChunkFive';
 	font-style: normal;
 	font-weight: normal;
 	src: local('ChunkFive'),
-		url('font/ChunkFive.ttf') format('ttf'),
-		url('font/ChunkFive.woff') format('woff'),
-		url('font/ChunkFive.eot') format('eot'),
+		url('../font/ChunkFive.ttf') format('ttf'),
+		url('../font/ChunkFive.woff') format('woff'),
+		url('../font/ChunkFive.eot') format('eot'),
+		url('../font/ChunkFive.otf') format('otf'),
+		url('../font/ChunkFive.svg') format('svg'),
 }
 
 .text-4 {
@@ -83,9 +47,11 @@
 	font-style: normal;
 	font-weight: normal;
 	src: local('Heyam'),
-		url('font/Heyam.ttf') format('ttf'),
-        url('font/Heyam.woff') format('woff'),
-		url('font/Heyam.eot') format('eot'),
+	url('../font/Heyam.ttf') format('ttf'),
+	url('../font/Heyam.woff') format('woff'),
+	url('../font/Heyam.eot') format('eot'),
+	url('../font/Heyam.otf') format('otf'),
+	url('../font/Heyam.svg') format('svg'),
 }
     
 .text-5 {
@@ -103,9 +69,11 @@
 	font-style: normal;
 	font-weight: normal;
 	src: local('PopRumKiwi-Telop'),
-		url('font/PopRumKiwi-Telop.ttf') format('ttf'),
-		url('font/PopRumKiwi-Telop.woff') format('woff'),
-		url('font/PopRumKiwi-Telop.eot') format('eot'),
+	url('../font/PopRumKiwi-Telop.ttf') format('ttf'),
+	url('../font/PopRumKiwi-Telop.woff') format('woff'),
+	url('../font/PopRumKiwi-Telop.eot') format('eot'),
+	url('../font/PopRumKiwi-Telop.otf') format('otf'),
+	url('../font/PopRumKiwi-Telop.svg') format('svg'),
 }
 
 .text-6 {
