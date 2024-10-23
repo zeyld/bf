@@ -131,6 +131,8 @@
     font-size: 100px;
     text-decoration: none;
     font-family: Pop;
+    font-weight: normal;
+	font-style: normal; 
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     -webkit-text-stroke-width: 2px;
 }
