@@ -14,9 +14,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
 }
 
 .nav {
+    position: sticky;
+    top: 0;
     margin-left: 30px;
     gap: 30px;
     display: flex;
@@ -107,12 +113,16 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 .pravo {
     margin-right: 30px;
     gap: 30px;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .text-header {
