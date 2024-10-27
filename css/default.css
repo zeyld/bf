@@ -10,3 +10,6 @@ body {
     background-color: rgb(226, 64, 64);
 }
 
+html {
+    scroll-behavior: smooth;
+}

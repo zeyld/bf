@@ -171,12 +171,17 @@
 }
 
 .niz {
+    transition: transform 0.4s;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     bottom: 50px;
     position: absolute;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
 }
 
 .strelka {
@@ -191,3 +196,5 @@
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
 }
+
+
