@@ -10,7 +10,7 @@
 
 .header-line {
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,9 +172,22 @@
 
 .niz {
     display: flex;
-    max-width: 100%;
     width: 100%;
+    align-items: center;
     justify-content: center;
     bottom: 50px;
     position: absolute;
+}
+
+.strelka {
+    display: flex;
+    position: absolute;
+}
+
+.niz:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }

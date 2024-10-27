@@ -17,10 +17,57 @@ p {
 
 .tgvk {
     display: flex;
-    gap: 15px;   
+    gap: 15px; 
     margin-right: 20px;        
     justify-content: center; 
     align-items: center;  
 }
 
+.mail {
+    width: 100%;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
 
+.mail:hover {
+    text-decoration: underline;
+}
+
+.tg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    transition: background-color 0.4s linear;
+    -webkit-transition: background-color 0.4s linear;
+    -moz-transition: background-color 0.4s linear;
+    -ms-transition: background-color 0.4s linear;
+    -o-transition: background-color 0.4s linear;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tg:hover {
+    background-color: white;
+}
+
+.vk {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    transition: background-color 0.4s linear;
+    -webkit-transition: background-color 0.4s linear;
+    -moz-transition: background-color 0.4s linear;
+    -ms-transition: background-color 0.4s linear;
+    -o-transition: background-color 0.4s linear;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.vk:hover {
+    background-color: white;
+}
